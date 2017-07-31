@@ -9,7 +9,7 @@
 
 var interval = 0.25; // in seconds
 //stolen code from stackoverflow
-//from your friendly neighbourhood spiderman (lychwee)
+//from your friendly neighbourhood spiderman 
 // Code below 
 
 function imgReplace() {
