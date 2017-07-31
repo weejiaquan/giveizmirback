@@ -1,15 +1,17 @@
 // ==UserScript==
-// @name        Korwa
-// @namespace   
-// @description Replaces images
-// @include     *://game.granbluefantasy.jp
+// @name        Replace Korwa to Summer Korwa
+// @namespace   ???
+// @description lewd korwa please
+// @include     *://game.granbluefantasy.jp*
 // @version     1.0.0
 // @grant       none
-// ==UserScript==
+// ==/UserScript==
 
 var interval = 0.25; // in seconds
+//stolen code from stackoverflow
+//from your friendly neighbourhood spiderman 
+// Code below 
 
-// DON'T EDIT BELOW ///////////////////
 
 function imgReplace() {
     var images = document.getElementsByTagName('img'),
