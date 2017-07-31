@@ -5,7 +5,7 @@
 // @include     *://game.granbluefantasy.jp
 // @version     1.0.0
 // @grant       none
-// ==/UserScript==
+// ==UserScript==
 
 var interval = 0.25; // in seconds
 
