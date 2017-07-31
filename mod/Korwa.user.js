@@ -2,7 +2,7 @@
 // @name        Korwa
 // @namespace   
 // @description Replaces images
-// @include     *://game.granbluefantasy.jp
+// @include     *://game.granbluefantasy.jp*
 // @version     1.0.0
 // @grant       none
 // ==/UserScript==
