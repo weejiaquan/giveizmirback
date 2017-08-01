@@ -21,10 +21,13 @@ function imgReplace() {
         img.src = img.src.replace('http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/f/3040126000_02.jpg', 'http://game-a.granbluefantasy.jp/assets/img/sp/assets/npc/f/3040126000_02.jpg'); 
         img.src = img.src.replace('http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/raid_normal/3040126000_02.jpg', 'http://game-a1.granbluefantasy.jp/assets/img/sp/assets/npc/raid_normal/3040126000_02.jpg');
         img.src = img.src.replace('http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/my/3040126000_02.png','http://game-a1.granbluefantasy.jp/assets/img/sp/assets/npc/my/3040126000_02.png');
+        img.src = img.src.replace('http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/zoom/3040126000_02.png','http://game-a.granbluefantasy.jp/assets/img/sp/assets/npc/zoom/3040126000_02.png');
         img.src = img.src.replace('http://game-a.granbluefantasy.jp/assets_en/img_mid/sp/assets/npc/b/3040126000_02.png', 'http://game-a.granbluefantasy.jp/assets/img_mid/sp/assets/npc/b/3040126000_02.png'); 
         img.src = img.src.replace('http://game-a.granbluefantasy.jp/assets_en/img_mid/sp/assets/npc/f/3040126000_02.jpg', 'http://game-a.granbluefantasy.jp/assets/img_mid/sp/assets/npc/f/3040126000_02.jpg'); 
         img.src = img.src.replace('http://game-a1.granbluefantasy.jp/assets_en/img_mid/sp/assets/npc/raid_normal/3040126000_02.jpg', 'http://game-a1.granbluefantasy.jp/assets/img_mid/sp/assets/npc/raid_normal/3040126000_02.jpg');
         img.src = img.src.replace('http://game-a1.granbluefantasy.jp/assets_en/img_mid/sp/assets/npc/my/3040126000_02.png','http://game-a1.granbluefantasy.jp/assets/img_mid/sp/assets/npc/my/3040126000_02.png');
+        img.src = img.src.replace('http://game-a.granbluefantasy.jp/assets_en/img_mid/sp/assets/npc/zoom/3040126000_02.png','http://game-a.granbluefantasy.jp/assets/img_mid/sp/assets/npc/zoom/3040126000_02.png');
+        
     }
 }
 setInterval(imgReplace, interval * 1000);
